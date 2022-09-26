@@ -18,7 +18,7 @@ The purpose of this mini project is to provide a quick demonstration of how to u
 
 **The data set used in mini-project**
 
-For this mini-project, we are going to use the **diabetes** data set, which descirbes the diabetic condition of a patient based on the level of some chemical compounds found in their blood sample. The [path](https://github.com/nvhoang3110/Project-Portfolio/blob/main/Supervised%20learning/Classification%20problems/kNN%20classifier/Data/diabetes.csv) to the ```.csv``` file can be found in the project repository.
+For this mini-project, we are going to use the **diabetes** data set, which descirbes the diabetic condition of a patient based on the level of some chemical compounds found in their blood sample. The [path](Supervised-learning/Diabetes/Data/diabetes.csv) to the ```.csv``` file can be found in the project repository.
 
 ### Break down of this mini-project
 
@@ -213,7 +213,7 @@ bar_plot = begin
 end
 ```
 
-![bar_plot](https://github.com/nvhoang3110/Project-Portfolio/blob/main/Supervised%20learning/Classification%20problems/kNN%20classifier/Plots/bar_plot.png?raw=true)
+![bar_plot](https://github.com/nvhoang3110/Project-Portfolio/blob/main/Supervised-learning/Diabetes/Plots/bar_plot.png?raw=true)
 
 From the plot, we can see that our initial guess is correct: a clear imbalanced in our categorical variable. There are more paients with ```Normal``` diabetic condition than both ```Chemical``` and ```Overt``` diabetic conditions. In fact, the nummber of patients with ```Normal``` diabetic condition is almost equal to the combined number of both ```Chemical``` and ```Overt``` diabetic conditions:
 
@@ -297,7 +297,7 @@ scatter_plot = begin
 end
 ```
 
-![Scatter_plot](https://github.com/nvhoang3110/Project-Portfolio/blob/main/Supervised%20learning/Classification%20problems/kNN%20classifier/Plots/scatter_plot.png?raw=true)
+![Scatter_plot](https://github.com/nvhoang3110/Project-Portfolio/blob/main/Supervised-learning/Diabetes/Plots/scatter_plot.png?raw=true)
 
 If you prefer a 3D-plot of our continuous variables, to combine all 3 features together, we can certainly do it. Although it is not not recommended, since the human eye reads 3D figure really bad, which may lead to lack of accuracy and poor interpretation about the data:
 
@@ -348,7 +348,7 @@ plot_3D = begin
 end
 ```
 
-![3D_plot](https://github.com/nvhoang3110/Project-Portfolio/blob/main/Supervised%20learning/Classification%20problems/kNN%20classifier/Plots/3D_plot.png?raw=true)
+![3D_plot](https://github.com/nvhoang3110/Project-Portfolio/blob/main/Supervised-learning/Diabetes/Plots/3D_plot.png?raw=true)
 
 Here are some intuitions that we get from our plots:
 
@@ -907,7 +907,7 @@ line_scatter_plot = begin
 end
 ```
 
-![line_scatter_plot](https://github.com/nvhoang3110/Project-Portfolio/blob/main/Supervised%20learning/Classification%20problems/kNN%20classifier/Plots/line_scatter_plot.png?raw=true)
+![line_scatter_plot](https://github.com/nvhoang3110/Project-Portfolio/blob/main/Supervised-learning/Diabetes/Plots/line_scatter_plot.png?raw=true)
 
 From the plot, we can see that the ```Accuracy``` reaches its peak value at ```K``` equals to 7, 12 and 13. Since setting the number of nearest neighbor to 7 results in a similar performance as setting it to 12 or 13, the algorithm thus selected that value as the optimal one. Anything more than 7 would end up in similar or even worse performance, with the additional cost of computational budget.
 

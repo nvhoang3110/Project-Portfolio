@@ -22,7 +22,7 @@ For this mini-project, we are going to use the **diabetes** data set, which desc
 
 ### Break down of this mini-project
 
-**Our project is structured as follows**
+**Our project is structured as follows:**
 
 1. Installing, importing libraries and data used in our project;
 
@@ -96,7 +96,7 @@ first(diabetes, 10) |> pprint
   10 │ Normal         97      296    131
 ```
 
-We have a data set that contains in total 145 observaions over 4 variables, including 3 continuous features and one categorical variable (the ```class``` column). This idea is confirmed by inspecting the dimensions of our data:
+We have a data set that contains in total 145 observations over 4 variables, including 3 continuous features and one categorical variable (the ```class``` column). This idea is confirmed by inspecting the dimensions of our data:
 
 ```Julia
 # Dimension inspection

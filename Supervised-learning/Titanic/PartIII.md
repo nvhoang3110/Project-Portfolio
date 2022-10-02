@@ -499,7 +499,7 @@ fig
 
 As we can see from the plot, the ROC curve for ```BayesianSubspaceLDA``` almost matches one for ```BayesianLDA``` perfectly, which makes sense since both models offer very comparable performance. The difference here is minor.
 
-#### 2.4 Model adjustment
+#### 2.4. Model adjustment
 
 One of the nice thing of ```BayesianSubspaceLDA``` model is that it has **no** hyperparameter to tune. However, the model have the option for us to normalize the training data, which we have already standardized in the beginning. We can confirm that by inspecting the model hyperparameters:
 

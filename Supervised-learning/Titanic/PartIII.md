@@ -38,7 +38,7 @@ The path to both data set can be found in the project repository.
 
 ### 1. Import libraries, data set
 
-#### 1.1 Import the packages
+#### 1.1. Import the packages
 
 We first start by loading all the libraries used in the third part of the project:
 

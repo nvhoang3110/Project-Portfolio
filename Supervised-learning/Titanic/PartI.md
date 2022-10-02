@@ -190,7 +190,7 @@ To have a better visual understanding of how our data look like and how they int
 
 #### 2.2. Data visualization
 
-> Unfortunately, since ```Makie.jl``` was built to optimize low-level graphical objects, to make statistical plots using the package, we have to set up everything from data transformation from wide to long format, color setting, and so on.  
+> **NOTE:** Unfortunately, since ```Makie.jl``` was built to optimize low-level graphical objects, to make statistical plots using the package, we have to set up everything from data transformation from wide to long format, color setting, and so on.  
 
 Using plot is a great way to understand our data, and that's what are are going to do in this section. We can have a pretty good picture of how the passengers on board that day were like by plotting their genders and classes, and where do they came from as well. We first start with gender first: How many of them were men and how many of them were women. We also add their accociated classes (```Pclass```) to the plot:
 
